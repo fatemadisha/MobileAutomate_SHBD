@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-01T16:57:57 BDT" name="Default suite" finished-at="2024-10-01T16:58:48 BDT" duration-ms="50961">
+    <groups>
+    </groups>
+    <test started-at="2024-10-01T16:57:57 BDT" name="Default test" finished-at="2024-10-01T16:58:48 BDT" duration-ms="50961">
+      <class name="DGHA.MemberAdd">
+        <test-method is-config="true" signature="genericRun()[pri:0, instance:DGHA.MemberAdd@710636b0]" started-at="2024-10-01T16:57:57 BDT" name="genericRun" finished-at="2024-10-01T16:58:02 BDT" duration-ms="5640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genericRun -->
+        <test-method signature="searchAndClickLatestHousehold()[pri:0, instance:DGHA.MemberAdd@710636b0]" started-at="2024-10-01T16:58:02 BDT" name="searchAndClickLatestHousehold" finished-at="2024-10-01T16:58:32 BDT" duration-ms="30105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndClickLatestHousehold -->
+        <test-method signature="fillPregnancyRegistration()[pri:0, instance:DGHA.MemberAdd@710636b0]" started-at="2024-10-01T16:58:33 BDT" name="fillPregnancyRegistration" finished-at="2024-10-01T16:58:47 BDT" depends-on-methods="DGHA.MemberAdd.searchAndClickLatestHousehold" duration-ms="14916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillPregnancyRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DGHA.MemberAdd@710636b0]" started-at="2024-10-01T16:58:47 BDT" name="tearDown" finished-at="2024-10-01T16:58:48 BDT" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DGHA.MemberAdd -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
